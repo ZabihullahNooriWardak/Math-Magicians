@@ -1,0 +1,41 @@
+/* src/styles/ButtonStyles.css */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.header {
+  grid-column: span 4;
+  text-align: right;
+  padding: 20px;
+  background-color: grey;
+}
+
+.button {
+  color: #333;
+  font-size: 24px;
+  width: 90px;
+  height: 60px;
+  border: none;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+}
+
+.zero {
+  grid-column: span 2;
+  width: 185px;
+}
+
+.operator {
+  background-color: #f39c12;
+}
