@@ -1,29 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable react/prop-types */
+import React from 'react';
+import './style/ButtonStyles.css';
 
-function App() {
+function Calculator() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          {' '}
-          <code>src/App.js</code>
-          {' '}
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="header">0</div>
+      <Button className="button" label="AC" />
+      <Button className="button" label="+/-" />
+      <Button className="button" label="%" />
+      <Button className="button" label="/" />
+      <Button className="button" label="7" />
+      <Button className="button" label="8" />
+      <Button className="button" label="9" />
+      <Button className="button operator" label="x" />
+      <Button className="button" label="4" />
+      <Button className="button" label="5" />
+      <Button className="button" label="6" />
+      <Button className="button operator" label="-" />
+      <Button className="button" label="1" />
+      <Button className="button" label="2" />
+      <Button className="button" label="3" />
+      <Button className="button operator" label="+" />
+      <Button className="button zero" label="0" />
+      <Button className="button" label="." />
+      <Button className="button operator" label="=" />
     </div>
   );
 }
 
-export default App;
+function Button({ className, label }) {
+  return (
+    <button className={className} type="button">
+      {label}
+    </button>
+  );
+}
+
+export default Calculator;
