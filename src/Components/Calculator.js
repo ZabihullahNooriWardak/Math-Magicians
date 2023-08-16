@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import './style/ButtonStyles.css';
+import '../style/ButtonStyles.css';
 
 function Calculator() {
   return (
