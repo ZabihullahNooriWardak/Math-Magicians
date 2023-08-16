@@ -24,7 +24,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [ To Do App] <a name="about-project"></a>
+# 📖 [Math Magicians] <a name="about-project"></a>
 
 > This is web based app which is used for storing(listing) daily activity.
 
