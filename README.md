@@ -32,7 +32,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-#### HTML, CSS & Javascript.
+#### React,css
 
 <!-- Features -->
 
