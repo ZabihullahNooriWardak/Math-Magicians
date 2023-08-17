@@ -21,7 +21,7 @@ function Calculator() {
       <Button className="button" label="AC" onClick={handleClick} />
       <Button className="button" label="+/-" onClick={handleClick} />
       <Button className="button" label="%" onClick={handleClick} />
-      <Button className="button" label="/" onClick={handleClick} />
+      <Button className="button operator" label="/" onClick={() => handleClick('÷')} />
       <Button className="button" label="7" onClick={handleClick} />
       <Button className="button" label="8" onClick={handleClick} />
       <Button className="button" label="9" onClick={handleClick} />
