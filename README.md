@@ -3,7 +3,7 @@
   <h3><b>Math Magicians</b></h3>
 
 </div>
-# 📗 Table of Contents
+<h2>Table of Content</h2>
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
@@ -26,7 +26,7 @@
 
 # 📖 [Math Magicians] <a name="about-project"></a>
 
-> This is web based app which is used for storing(listing) daily activity.
+> This is web based beutiful app which display random quotes from API and has beutiful calculator 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,7 +66,7 @@ C:\Users\Dell>
 cd my-folder
 C:\Users\Dell\my-folder
 After you can clone using this command  
- git clone https://github.com/ZabihullahNooriWardak/toDoList
+ git clone https://github.com/ZabihullahNooriWardak/Math-Magicians.git
 
 ### Install
 
