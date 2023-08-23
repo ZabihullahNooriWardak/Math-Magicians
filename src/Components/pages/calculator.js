@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Button from './Button';// Adjust the path based on your project structure
+import Button from '../Button';
 import '../style/ButtonStyles.css';
-import calculate from '../logic/calculate'; // Adjust the path to calculate.js
+import calculate from '../../logicOfCalculator/calculate';
 
 function Calculator() {
   const [calculatorState, setCalculatorState] = useState({
