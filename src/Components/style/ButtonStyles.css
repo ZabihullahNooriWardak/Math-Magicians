@@ -6,7 +6,13 @@
   grid-gap: 2px;
   max-width: 300px;
   margin: 0 auto;
-  margin-top: 120px;
+  margin-top: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header {
@@ -39,4 +45,17 @@
 
 .operator {
   background-color: #f39c12;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: all 0.5s ease-in;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.link:hover {
+  background-color: greenyellow;
 }
