@@ -13,9 +13,11 @@ function App() {
       <header>
         <nav>
           <h1>Math Magicians</h1>
-          <Link to="/">Home</Link>
-          <Link to="/calculator">Calculator</Link>
-          <Link to="/quote">Quotes</Link>
+          <div>
+            <Link to="/" className="link">Home</Link>
+            <Link to="/calculator" className="link">Calculator</Link>
+            <Link to="/quote" className="link">Quotes</Link>
+          </div>
         </nav>
       </header>
       <main>
