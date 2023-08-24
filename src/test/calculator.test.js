@@ -1,8 +1,10 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-import Calculator from '../Components/pages/calculator';
+import calculate from '../logicOfCalculator/calculate';
+import operate from '../logicOfCalculator/operate';
 
-test('render correctly', () => {
-  const calculatorComponent = render(<Calculator />);
-  expect(calculatorComponent).toMatchSnapshot();
-});
+jest.mock('../logicOfCalculator/operate'); // Mocking the operate module
+
+describe('calculate function', () => {
+  it('should handle AC button', () => {
+    const result = calculate({ total: '10', next: '5', operation: '+' }, 'AC');
+    expect(result).toEqual({ total: null, next: null, operation: null });
+  });
