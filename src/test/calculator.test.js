@@ -18,3 +18,10 @@ describe('calculate function', () => {
     const result = calculate({ total: '10', next: '5', operation: '+' }, '.');
     expect(result).toEqual({ total: '10', next: '5.', operation: '+' });
   });
+
+  it('should handle equals button', () => {
+    operate.mockReturnValueOnce('15');
+    const result = calculate({ total: '10', next: '5', operation: '+' }, '=');
+    expect(result).toEqual({ total: '15', next: null, operation: null });
+  });
+});
