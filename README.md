@@ -42,7 +42,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-### comming soon
+### [ live demo link ](https://mathmagicians-ead4.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
