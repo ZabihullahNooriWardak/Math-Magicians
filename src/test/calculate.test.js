@@ -20,7 +20,7 @@ describe('calculate function', () => {
   });
 
   it('should handle equals button', () => {
-    operate.mockReturnValueOnce('15'); 
+    operate.mockReturnValueOnce('15');
     const result = calculate({ total: '10', next: '5', operation: '+' }, '=');
 
     expect(result.total).toBe('15');
